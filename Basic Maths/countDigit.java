@@ -9,3 +9,7 @@ class Solution {
         return count;
     }
 };
+
+
+
+// TC : O(log_10(n)) 
