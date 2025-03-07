@@ -14,7 +14,8 @@ class Solution {
     }
 };
 
-
+// gcd - greatest common divisor
+// lcm - least common multiple
 // firstly we will find the gcd of the two numbers
 // we will iterate from 1 to min(a,b) and check if both a & b are divisible by i or not
 // if they are divisible then we will store the value if i in gcd
