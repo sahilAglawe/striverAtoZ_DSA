@@ -1,12 +1,12 @@
 class Solution {
     int i = 0;
-public void printNos(int n) {
+public void printOnetoN(int n) {
 if ( n == i ) {
       return;
   } else {
       i++;
       System.out.print(i +" ");
-      printNos(n);
+      printOnetoN(n);
   }
 }
 }
