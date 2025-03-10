@@ -5,8 +5,10 @@ class Solution {
         
         ArrayList<Long> result = new ArrayList<Long>(); // arraylist to store the result
         for(int i = 1; i<=n; i++){
-            if(factorial(i) <= n) result.add(factorial(i)); // if the factorial of i is less than or equal to n then add it to the result
-            if(factorial(i) > n) return result; // if the factorial of i is greater than n then return the result.
+            if(factorial(i) <= n)
+             result.add(factorial(i)); // if the factorial of i is less than or equal to n then add it to the result
+            if(factorial(i) > n)
+             return result; // if the factorial of i is greater than n then return the result.
         }
         return result;
     }
