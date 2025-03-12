@@ -11,7 +11,7 @@ public class primeNumber {
                 return false;
             }
         }
-   }
+    }
 }
 
 
