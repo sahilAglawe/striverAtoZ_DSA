@@ -1,11 +1,9 @@
-
-
 class Solution
-{
+ {
     
 	public static void bubbleSort(int arr[], int n)
     {
-        //code here
+        
         if(n ==1){
             return;
         }
