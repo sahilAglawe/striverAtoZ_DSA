@@ -3,9 +3,9 @@ class Solution
   static void insert(int arr[],int i)
   {
        int j = i;
-       while(j > 0 && arr[j - 1] > arr[j]){
-           int temp = arr[j -1];
-           arr[j - 1] = arr[j];
+       while(j > 0 && arr[j - 1] > arr[j]){ // j > 0 is used to check if the previous element is greater than the current element.
+           int temp = arr[j -1];  // arr[j-1] is the previous element.
+           arr[j - 1] = arr[j]; //arr[j] is the current element.
            arr[j] = temp;
            j--;
        }
