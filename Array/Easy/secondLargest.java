@@ -7,7 +7,7 @@ class Solution {
             if(arr[i] > max){
                 secMax = max; // here , we update secMax and max element.
                 max = arr[i];
-            } else if(arr[i] > secMax && arr[i] < max){
+            } else if(arr[i] > secMax && arr[i] < max){ // this condition is for the case when the current element is greater than the element and less than the max element.
                 secMax=arr[i];
             }
             }
