@@ -13,7 +13,7 @@ class Solution {
     }
 }
 
-// T/C: O(n) S/C: O(1)
+// T/C: O(N) S/C: O(1)
 
 // we firstly declare a variable max and assign the first element of the array as it.
 // then we iterate through the array and check if the current element is greater than the max element then we update the max element and increment the count.
