@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int count = 0;
         for(int i = 0; i<n; i++){
-            if(nums[i] > nums[(i + 1) % n]){ // if the current element is greater than the next element then increment the count.
+            if(nums[i] > nums[i + 1]){ // if the current element is greater than the next element then increment the count.
                count++;
             }
             if(count > 1){
