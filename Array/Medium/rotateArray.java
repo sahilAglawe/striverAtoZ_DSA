@@ -20,3 +20,5 @@ class Solution {
 // rotate 1 steps to the right: [7,1,2,3,4,5,6]
 // rotate 2 steps to the right: [6,7,1,2,3,4,5]
 // rotate 3 steps to the right: [5,6,7,1,2,3,4]
+// it means we are rotating the array to the right by k steps.
+// so, we are taking the last k elements and putting them in the front of the array.
