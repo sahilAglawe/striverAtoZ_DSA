@@ -2,7 +2,7 @@
 
 class Solution {
     public String reverseWords(String s) {
-        String[] words = s.split("\\s+");   // \\s+ is a regular expression that are used for the remoing the extra spaces
+        String[] words = s.split("\\s+");   // \\s+ is a regular expression that are used for the removving the extra spaces
         StringBuilder res = new StringBuilder();
 
         for(int i = words.length-1; i>=0; i--){
