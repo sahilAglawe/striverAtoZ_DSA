@@ -5,8 +5,8 @@ class Solution {
         if(s.length() != goal.length()) {
             return false;
         }
-        return (s + s).contains(goal);
-    }
+        return (s + s).contains(goal);  // contains() -> It is used to check whether a string contains a specific sequence of characters or not
+    }                                   // ( s + s ) -> If we concatenate the string 's' with itself, it will contain all possible rotations of 's'
 }
 
 
