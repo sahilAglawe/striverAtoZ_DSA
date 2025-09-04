@@ -10,7 +10,7 @@ class Solution {
         }
         lcm = ( a * b)/ gcd; // lcm formula = (a*b)/gcd
         
-        return new int[]{lcm,gcd};
+        return new int[]{lcm,gcd}; // return in array form
     }
 };
 
