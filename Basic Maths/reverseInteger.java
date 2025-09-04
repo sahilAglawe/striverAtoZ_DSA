@@ -5,7 +5,7 @@ class Solution {
             int lastDigit = x % 10;
              x = x / 10;
 
-              if (revN > Integer.MAX_VALUE / 10 || (revN == Integer.MAX_VALUE / 10 && lastDigit > 7)) 
+              if (revN > Integer.MAX_VALUE / 10 || (revN == Integer.MAX_VALUE / 10 && lastDigit > 7))  // This condition is used to check for overflow .
                 return 0; 
 
                 if (revN < Integer.MIN_VALUE / 10 || (revN  == Integer.MIN_VALUE / 10 && lastDigit < -8)) 
