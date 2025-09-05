@@ -6,8 +6,8 @@ class Solution {
         int start = 0;
         int last = s.length() - 1;
         while(start <= last) {
-        	char currFirst = s.charAt(start);
-        	char currLast = s.charAt(last);
+        	char currFirst = s.charAt(start); // charAt() function is used to get the character at the specified index. 
+        	char currLast = s.charAt(last); // this will get the character at the last pointer .
         	if (!Character.isLetterOrDigit(currFirst )) { // this will check if the character is not a letter or digit.
         		start++;
         	} else if(!Character.isLetterOrDigit(currLast)) { // this will check if the character is not a letter or digit.
