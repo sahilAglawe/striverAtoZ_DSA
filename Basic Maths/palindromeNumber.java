@@ -5,7 +5,7 @@ class Solution {
         while( x > 0) {
             int ld = x % 10;
             x = x / 10;
-            revN = revN * 10 + ld;
+            revN = revN * 10 + ld; // formula to reverse the number 
         }
         if(revN == dup){
             return true;
