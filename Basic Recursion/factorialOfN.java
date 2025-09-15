@@ -13,7 +13,7 @@ class Solution {
         return result;
     }
     public static long factorial(long n){ // function to calculate the factorial of a number
-        if(n == 1){
+        if(n <= 1){
             return 1;
         } else {
             return n * factorial(n-1);
@@ -22,13 +22,7 @@ class Solution {
 
 }
 
-
-// also we can write the code like this:
-// fact(int n){
-//    if(n <= 1) return 1;
-//    else 
-//    return n * fact(n-1);
-// }
+// Tc: O(n) , Sc: O(n)
 
 // firstly we will create a function factorialNumbers() which will take a long n as input.
 // we will create an arraylist result to store the result.
