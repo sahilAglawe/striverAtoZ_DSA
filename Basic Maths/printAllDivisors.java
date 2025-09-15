@@ -16,14 +16,13 @@
 class Solution {
     public static int sumOfDivisors(int n) {
         int sum = 0;
-        int i = 1;
-        while(n>0){
-        for( i = 1; i <= n; i++) {
+       while(n>0){
+        for(int i = 1; i <= n; i++) {
             if( n % i == 0){
                sum = sum + i;
             }
         }
-        n = n-1;
+        n = n-1; // this is done to get the sum of divisors of all numbers from 1 to n
       }
         return sum;
     }
