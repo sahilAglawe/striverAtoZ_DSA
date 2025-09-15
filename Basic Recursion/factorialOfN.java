@@ -22,6 +22,14 @@ class Solution {
 
 }
 
+
+// also we can write the code like this:
+// fact(int n){
+//    if(n <= 1) return 1;
+//    else 
+//    return n * fact(n-1);
+// }
+
 // firstly we will create a function factorialNumbers() which will take a long n as input.
 // we will create an arraylist result to store the result.
 // then we will run a loop from 1 to n.
