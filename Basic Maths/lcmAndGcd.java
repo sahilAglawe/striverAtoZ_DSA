@@ -3,7 +3,7 @@ class Solution {
         int lcm;
         int gcd =1;
         
-        for(int i=1; i<=Math.min(a,b); i++){
+        for(int i=1; i<=Math.min(a,b); i++){ // iterating from 1 to min(a,b) because gcd can't be greater than min(a,b)
             if(a % i == 0 && b % i == 0 ){
                 gcd = i;
             }
